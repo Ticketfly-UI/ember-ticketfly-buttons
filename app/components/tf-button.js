@@ -1,1 +1,1 @@
-export { default } from 'ticketfly-button/components/tf-button/component';
+export { default } from 'ticketfly-buttons/components/tf-button/component';

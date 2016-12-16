@@ -1,4 +1,4 @@
-# Ticketfly Button
+# Ticketfly Buttons
 
 This Ember addon provides the **buttons** and **buttons with icons** components of the Ticketfly UI library.
 
@@ -48,7 +48,7 @@ Resulting HTML:
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd ticketfly-button`
+* `cd ticketfly-buttons`
 * `npm install`
 * `bower install`
 

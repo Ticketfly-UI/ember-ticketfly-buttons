@@ -1,5 +1,5 @@
 /**
-  @module ticketfly-button
+  @module ticketfly-buttons
  */
 import Ember from 'ember';
 import layout from './template';
