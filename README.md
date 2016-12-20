@@ -1,11 +1,11 @@
-# ticketfly-button
+# ember-ticketfly-buttons
 
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd ticketfly-button`
+* `cd ember-ticketfly-buttons`
 * `npm install`
 * `bower install`
 

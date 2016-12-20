@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ticketfly-button'
+  name: 'ember-ticketfly-buttons'
 };
