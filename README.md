@@ -21,9 +21,9 @@ Template:
 
 Resulting HTML:
 ```html
-<button class="c-button u-button-primary u-button-neutral">Solid indigo button</button>
+<button class="tf-button tf-button--primary tf-button--neutral">Solid indigo button</button>
 
-<button class="c-button u-button-secondary u-button-positive">Solid green button</button>
+<button class="tf-button tf-button--secondary tf-button--positive">Solid green button</button>
 ```
 
 **Button States**
@@ -40,9 +40,9 @@ Template:
 Resulting HTML:
 
 ```html
-<button class="c-button">Active button</button> 
+<button class="tf-button">Active button</button> 
 
-<button class="c-button" disabled=true>Disabled button</button>
+<button class="tf-button" disabled=true>Disabled button</button>
 ```
 
 ## Installation

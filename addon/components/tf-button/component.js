@@ -15,21 +15,18 @@ export default Component.extend({
   layout,
 
   tagName: 'button',
-  classNames: ['c-button'],
-  attributeBindings: ['disabled'],
+  classNames: ['tf-button'],
+  attributeBindings: ['disabled', 'aria-label'],
   classNameBindings: ['buttonCategory'],
 
   utilityGroups: collect('weightGroup', 'colorGroup'),
 
   buttonCategory: computed('utilityGroups', {
     get() {
-      let buttonCategory = '';
-      get(this, 'utilityGroups').map((group) => {
-        if (group) {
-          buttonCategory += `u-button-${group} `;
-        }
-      });
-      return buttonCategory;
+      return get(this, 'utilityGroups')
+        .compact()
+        .map(group => `tf-button--${group}`)
+        .join(' ');
     }
   })
 });

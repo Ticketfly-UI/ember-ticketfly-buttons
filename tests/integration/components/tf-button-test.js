@@ -29,5 +29,12 @@ test('applies button category classes', function(assert) {
   this.render(hbs`
     {{#tf-button weightGroup='primary' colorGroup='positive'}}Primary Positive{{/tf-button}}
   `);
-  assert.ok(this.$('button.u-button-primary.u-button-positive').length, 'Button is rendered with primary and positive classes');
+  assert.ok(this.$('button.tf-button--primary.tf-button--positive').length, 'Button is rendered with primary and positive classes');
+});
+
+test('aria-label attribute binding', function(assert) {
+   this.render(hbs`
+    {{#tf-button aria-label="Close"}}X{{/tf-button}}
+  `);
+  assert.equal(this.$('button').attr('aria-label'), "Close", 'aria-label attribute is defined');
 });
