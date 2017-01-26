@@ -1,9 +1,4 @@
 :root {
-  --font-family-gibson: 
-    Gibson, Akkurat-Pro, Helvetica, Roboto, Arial, sans-serif;
-  --font-family-akkurat-pro:
-    Akkurat-Pro, Helvetica, Roboto, Arial, sans-serif;
-
   --base-button-height: 36px;
   --base-button-border-radius: 2px;
   --base-button-padding: 0 12px;

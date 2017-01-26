@@ -1,5 +1,9 @@
-@import "variables.css";
-@import "components/tf-button.css";
+:root{
+  --font-family-gibson: 
+    Gibson, Akkurat-Pro, Helvetica, Roboto, Arial, sans-serif;
+  --font-family-akkurat-pro:
+    Akkurat-Pro, Helvetica, Roboto, Arial, sans-serif;
+}
 
 html, body {
   background-color: var(--x-color-white);

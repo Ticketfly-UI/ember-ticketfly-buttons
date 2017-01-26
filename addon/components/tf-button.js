@@ -2,7 +2,7 @@
   @module ember-ticketfly-buttons
  */
 import Ember from 'ember';
-import layout from './template';
+import layout from '../templates/components/tf-button';
 import { collect } from 'ember-computed';
 const { Component, computed, get } = Ember;
 
