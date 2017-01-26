@@ -3,13 +3,13 @@
 */
 
 .c-tf-button {
-  height: var(--base-button-height);
-  min-width: var(--base-button-min-width);
-  border-radius: var(--base-button-border-radius);
-  padding: var(--base-button-padding);
-  margin: var(--base-button-margin);
+  height: var(--tf-button-height);
+  min-width: var(--tf-button-min-width);
+  border-radius: var(--tf-button-border-radius);
+  padding: var(--tf-button-padding);
+  margin: var(--tf-button-margin);
   color: var(--x-color-white);
-  transition: var(--base-button-transition);  
+  transition: var(--tf-button-transition);  
   font-weight: bold;
   border: 1px solid transparent;
   cursor: pointer;

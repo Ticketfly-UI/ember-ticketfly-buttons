@@ -1,8 +1,0 @@
-:root {
-  --base-button-height: 36px;
-  --base-button-border-radius: 2px;
-  --base-button-padding: 0 12px;
-  --base-button-margin: 0 12px;
-  --base-button-min-width: 90px;
-  --base-button-transition: background-color .25s ease-out,color .25s ease-out;
-}
