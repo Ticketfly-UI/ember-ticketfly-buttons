@@ -20,7 +20,7 @@ export default Component.extend({
   tagName: 'button',
   classNames: ['c-tf-button'],
   attributeBindings: ['disabled', 'aria-label'],
-  classNameBindings: ['buttonCategory'],
+  classNameBindings: ['buttonCategory','disabled:c-tf-button--disabled'],
 
   colorGroup: 'neutral',
   weightGroup: 'primary',
