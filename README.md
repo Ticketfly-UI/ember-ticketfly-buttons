@@ -2,7 +2,15 @@
 
 This Ember addon provides the **buttons** and **buttons with icons** components of the Ticketfly UI library.
 
+## TO DO
+
+* tf-button component with svg icons
+* Refactor some styles to ticketfly-css
+
 ## Usage
+```
+ember install ember-ticketfly-buttons`
+```
 
 `tf-button` component:
 * Pass `weightGroup` and `colorGroup` properties to configure the **button categories**.
