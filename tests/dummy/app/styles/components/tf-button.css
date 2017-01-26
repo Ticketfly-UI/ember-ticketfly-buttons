@@ -1,0 +1,72 @@
+/*
+  Base Button
+*/
+
+.c-tf-button {
+  height: var(--base-button-height);
+  min-width: var(--base-button-min-width);
+  border-radius: var(--base-button-border-radius);
+  padding: var(--base-button-padding);
+  margin: var(--base-button-margin);
+  color: var(--x-color-white);
+  transition: var(--base-button-transition);  
+  font-weight: bold;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+/*
+  Color Groups
+*/
+
+.c-tf-button--neutral {
+  background-color: var(--x-color-indigo-5);
+}
+
+.c-tf-button--positive {
+  background-color: var(--x-color-green-6);
+}
+
+.c-tf-button--negative {
+  background-color: var(--x-color-red-5);
+}
+
+/*
+  Weight Groups
+*/
+
+.c-tf-button--secondary {
+  color: var(--x-color-gray-8);
+  background-color: var(--x-color-white);
+  border-color: var(--x-color-gray-2);
+}
+
+.c-tf-button--secondary.c-tf-button--negative {
+  color: var(--x-color-red-5);
+  border-color: var(--x-color-red-5);
+}
+
+/*
+  Hover
+*/
+
+.c-tf-button:hover,
+.c-tf-button--secondary.c-tf-button--negative:hover {
+  color: white;
+  border-color: transparent;
+}
+
+.c-tf-button--neutral:hover {
+  color: var(--x-color-white);
+  background-color: var(--x-color-indigo-6);
+}
+
+.c-tf-button--positive:hover {
+  color: var(--x-color-white);
+  background-color: var(--x-color-green-7);
+}
+
+.c-tf-button--negative:hover {
+  color: var(--x-color-white);
+  background-color: var(--x-color-red-6);
+}

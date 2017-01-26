@@ -1,0 +1,61 @@
+<h1>tf-button</h1>
+
+<p class="u-m-0">Min-width: 90px | Height: 36px | Horizontal padding: 12px | Horizontal margin: 12px | Border radius: 2px.</p>
+<p class="u-m-0">Default weightGroup is "primary" and colorGroup is "neutral".</p>
+
+<h2>No parameters</h2>
+
+{{tf-button}}
+
+<pre class="c-pre g-bg-gray-0 u-mv-sm"><code>
+  \{{tf-button}}
+
+</code></pre>
+
+<h2>Button with long text</h2>
+
+{{tf-button text="Solid Indigo Button"}}
+
+<pre class="c-pre g-bg-gray-0 u-mv-sm"><code>
+  \{{tf-button text="Solid Indigo Button"}}
+
+</code></pre>
+
+<h2>Color groups</h2>
+
+{{tf-button colorGroup="positive" text="Save"}}
+{{tf-button text="Done"}}
+{{tf-button colorGroup="negative" text="Delete"}}
+
+<pre class="c-pre g-bg-gray-0 u-mv-sm"><code>
+  \{{tf-button colorGroup="positive" text="Save"}}
+  \{{tf-button colorGroup="neutral" text="Done"}}
+  \{{tf-button colorGroup="negative" text="Delete"}}
+
+</code></pre>
+
+<h2>Weight groups</h2>
+
+{{tf-button weightGroup="secondary" text="Save 2"}}
+{{tf-button weightGroup="secondary" colorGroup="positive" text="Done 2"}}
+{{tf-button weightGroup="secondary" colorGroup="negative" text="Delete 2"}}
+
+<pre class="c-pre g-bg-gray-0 u-mv-sm"><code>
+  \{{tf-button weightGroup="secondary" text="Save 2"}}
+  \{{tf-button weightGroup="secondary" colorGroup="positive" text="Done 2"}}
+  \{{tf-button weightGroup="secondary" colorGroup="negative" text="Delete 2"}}
+
+</code></pre>
+
+
+<h2>Block-form</h2>
+
+{{#tf-button colorGroup='positive'}}Blocky{{/tf-button}}
+
+<pre class="c-pre g-bg-gray-0 u-mv-md"><code>
+  \{{#tf-button colorGroup='positive'}}
+    Blocky
+  \{{/tf-button}}
+
+</code></pre>
+
