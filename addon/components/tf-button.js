@@ -2,11 +2,14 @@
   @module ember-ticketfly-buttons
  */
 import Ember from 'ember';
-import layout from './template';
+import layout from '../templates/components/tf-button';
 import { collect } from 'ember-computed';
 const { Component, computed, get } = Ember;
 
 /**
+  weightGroup options: 'primary', 'secondary'
+  coorGroup options: 'neutral', 'positive', 'negative'
+
   @public
   @class TfButton
   @extends Ember.Component
@@ -15,9 +18,12 @@ export default Component.extend({
   layout,
 
   tagName: 'button',
-  classNames: ['tf-button'],
+  classNames: ['c-tf-button'],
   attributeBindings: ['disabled', 'aria-label'],
-  classNameBindings: ['buttonCategory'],
+  classNameBindings: ['buttonCategory','disabled:c-tf-button--disabled'],
+
+  colorGroup: 'neutral',
+  weightGroup: 'primary',
 
   utilityGroups: collect('weightGroup', 'colorGroup'),
 
@@ -25,7 +31,7 @@ export default Component.extend({
     get() {
       return get(this, 'utilityGroups')
         .compact()
-        .map(group => `tf-button--${group}`)
+        .map(group => `c-tf-button--${group}`)
         .join(' ');
     }
   })
