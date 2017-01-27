@@ -1,11 +1,1 @@
 @import "components/tf-button.css";
-
-:root {
-  --tf-button-height: 36px;
-  --tf-button-border-radius: 2px;
-  --tf-button-padding: 0 12px;
-  --tf-button-margin: 0 12px;
-  --tf-button-min-width: 90px;
-  --tf-button-transition: background-color .25s ease-out,color .25s ease-out;
-}
-
