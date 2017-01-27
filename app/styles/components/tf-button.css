@@ -3,7 +3,7 @@
 */
 
 .c-tf-button {
-  height: var(--tf-button-height);
+  min-height: var(--tf-button-height);
   min-width: var(--tf-button-min-width);
   border-radius: var(--tf-button-border-radius);
   padding: var(--tf-button-padding);
