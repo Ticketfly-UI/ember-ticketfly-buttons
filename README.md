@@ -1,6 +1,6 @@
 # Ember Ticketfly Buttons
 
-This Ember addon provides the **buttons** and **buttons with icons** components of the Ticketfly UI library.
+This Ember addon provides the **buttons** and **buttons with icons** components of the Ticketfly UI library. [View demo](https://ticketfly-ui.github.io/ember-ticketfly-buttons/)
 
 ## TO DO
 
