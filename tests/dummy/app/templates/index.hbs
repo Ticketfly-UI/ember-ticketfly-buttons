@@ -5,64 +5,52 @@
 
 <h2>No parameters</h2>
 
-{{tf-button}}
+{{! BEGIN-SNIPPET no-parameters }}
+  {{tf-button}}
+{{! END-SNIPPET }}
 
-<pre class="c-pre g-bg-gray-0 u-mv-sm"><code>
-  \{{tf-button}}
-
-</code></pre>
+{{code-snippet name="no-parameters.hbs" class="u-mv-md u-p-md"}}
 
 <h2>Button with long text</h2>
 
-{{tf-button text="Solid Indigo Button"}}
+{{! BEGIN-SNIPPET button-with-long-text }}
+  {{tf-button text="Solid Indigo Button"}}
+{{! END-SNIPPET }}
 
-<pre class="c-pre g-bg-gray-0 u-mv-sm"><code>
-  \{{tf-button text="Solid Indigo Button"}}
-
-</code></pre>
+{{code-snippet name="button-with-long-text.hbs" class="u-mv-md u-p-md"}}
 
 <h2>Color groups</h2>
 
-{{tf-button colorGroup="positive" text="Save"}}
-{{tf-button text="Done"}}
-{{tf-button colorGroup="negative" text="Delete"}}
+{{! BEGIN-SNIPPET color-groups }}
+  {{tf-button colorGroup="positive" text="Save"}}
+  {{tf-button text="Done"}}
+  {{tf-button colorGroup="negative" text="Delete"}}
+{{! END-SNIPPET }}
 
-<pre class="c-pre g-bg-gray-0 u-mv-sm"><code>
-  \{{tf-button colorGroup="positive" text="Save"}}
-  \{{tf-button colorGroup="neutral" text="Done"}}
-  \{{tf-button colorGroup="negative" text="Delete"}}
-
-</code></pre>
+{{code-snippet name="color-groups.hbs" class="u-mv-md u-p-md"}}
 
 <h2>Weight groups</h2>
 
-{{tf-button weightGroup="secondary" colorGroup="positive" text="Save 2"}}
-{{tf-button weightGroup="secondary" text="Done 2"}}
-{{tf-button weightGroup="secondary" colorGroup="negative" text="Delete 2"}}
+{{! BEGIN-SNIPPET weight-groups }}
+  {{tf-button weightGroup="secondary" colorGroup="positive" text="Save 2"}}
+  {{tf-button weightGroup="secondary" text="Done 2"}}
+  {{tf-button weightGroup="secondary" colorGroup="negative" text="Delete 2"}}
+{{! END-SNIPPET }}
 
-<pre class="c-pre g-bg-gray-0 u-mv-sm"><code>
-  \{{tf-button weightGroup="secondary" colorGroup="positive" text="Save 2"}}
-  \{{tf-button weightGroup="secondary" text="Done 2"}}
-  \{{tf-button weightGroup="secondary" colorGroup="negative" text="Delete 2"}}
-
-</code></pre>
+{{code-snippet name="weight-groups.hbs" class="u-mv-md u-p-md"}}
 
 <h2>Block-form</h2>
 
-{{#tf-button colorGroup='positive'}}Blocky{{/tf-button}}
+{{! BEGIN-SNIPPET block-form }}
+  {{#tf-button colorGroup='positive'}}Blocky{{/tf-button}}
+{{! END-SNIPPET }}
 
-<pre class="c-pre g-bg-gray-0 u-mv-md"><code>
-  \{{#tf-button colorGroup='positive'}}
-    Blocky
-  \{{/tf-button}}
-
-</code></pre>
+{{code-snippet name="block-form.hbs" class="u-mv-md u-p-md"}}
 
 <h2>Disabled</h2>
 
-{{tf-button disabled=true text="Disably"}}
+{{! BEGIN-SNIPPET disabled }}
+  {{tf-button disabled=true text="Disably"}}
+{{! END-SNIPPET }}
 
-<pre class="c-pre g-bg-gray-0 u-mv-sm"><code>
-  \{{tf-button disabled=true text="Disably"}}
-
-</code></pre>
+{{code-snippet name="disabled.hbs" class="u-mv-md u-p-md"}}

@@ -11,8 +11,3 @@ html, body {
   line-height: var(--base-line-height);
   color: var(--x-color-gray-9);
 }
-
-.c-pre {
-  border-radius: var(--base-border-radius);
-  line-height: 1.25;
-}
