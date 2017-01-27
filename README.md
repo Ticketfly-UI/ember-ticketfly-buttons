@@ -9,7 +9,7 @@ This Ember addon provides the **buttons** and **buttons with icons** components 
 
 ## Usage
 ```
-ember install ember-ticketfly-buttons`
+ember install ember-ticketfly-buttons
 ```
 
 `tf-button` component:
