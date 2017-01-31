@@ -12,9 +12,12 @@ This Ember addon provides the **buttons** and **buttons with icons** components 
 ember install ember-ticketfly-buttons
 ```
 
+If you are using this in an addon: in `package.json`, move `ember-ticketfly-buttons` from `devDependencies` to `dependencies`.
+
 `tf-button` component:
 * Pass `weightGroup` and `colorGroup` properties to configure the **button categories**.
 * Pass `disabled` property to alter the **button state**.
+
 
 **Button Categories**
 
