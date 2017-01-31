@@ -61,26 +61,14 @@
   Hover
 */
 
-.c-tf-button:hover,
-.c-tf-button--secondary.c-tf-button--negative:hover {
-  color: white;
-  border-color: transparent;
+.c-tf-button:hover {
+  background-color: var(--x-color-gray-0);
 }
 
-.c-tf-button--neutral:hover {
-  color: var(--x-color-white);
-  background-color: var(--x-color-indigo-6);
+.c-tf-button--neutral:hover, .c-tf-button--positive:hover {
+  color: var(--x-color-gray-8);
 }
 
-.c-tf-button--positive:hover {
-  color: var(--x-color-white);
-  background-color: var(--x-color-green-7);
-}
-
-.c-tf-button--negative:hover {
-  color: var(--x-color-white);
-  background-color: var(--x-color-red-6);
-}
 
 /*
   Disabled
