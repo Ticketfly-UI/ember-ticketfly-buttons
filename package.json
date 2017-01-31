@@ -1,6 +1,6 @@
 {
   "name": "ember-ticketfly-buttons",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The button and button with icons components of the Ticketfly UI library.",
   "keywords": [
     "ember-addon",
