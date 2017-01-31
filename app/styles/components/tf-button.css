@@ -87,6 +87,7 @@
 */
 
 .c-tf-button--disabled {
+  cursor: auto;
   color: var(--x-color-gray-4) !important;
   background-color: var(--x-color-gray-1) !important;
 }
